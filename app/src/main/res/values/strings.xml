@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pascoa</string>
+    <string name="foto">Foto</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="zero">0</string>
+    <string name="detetive">Qual o seu nome, detetive?</string>
+</resources>

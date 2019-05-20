@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.casa.pascoa.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/frame">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/foto"
+                android:src="@mipmap/dpa" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="260dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/detetive"
+                android:textSize="20sp"
+                android:layout_marginStart="250dp"
+                android:layout_marginEnd="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/my_name"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="60dp"
+                    android:textSize="40sp"
+                    android:background="#666666"
+                    android:inputType="text" />
+
+                <ImageButton
+                    android:id="@+id/enter"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="240dp"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_right"
+                    android:background="@null"
+                    android:contentDescription="@string/right" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/foto"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/number"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="@drawable/number_border">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/left1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_left"
+                    android:background="@null"
+                    android:contentDescription="@string/left" />
+
+                <TextView
+                    android:id="@+id/box1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero"
+                    android:textAlignment="center"
+                    android:textSize="64sp"
+                    android:textColor="#ffff99"
+                    />
+
+                <ImageButton
+                    android:id="@+id/right1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_right"
+                    android:background="@null"
+                    android:contentDescription="@string/right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/left2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_left"
+                    android:background="@null"
+                    android:contentDescription="@string/left" />
+
+                <TextView
+                    android:id="@+id/box2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero"
+                    android:textAlignment="center"
+                    android:textSize="64sp"
+                    android:textColor="#99ff99"
+                    />
+
+                <ImageButton
+                    android:id="@+id/right2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_right"
+                    android:background="@null"
+                    android:contentDescription="@string/right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/left3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_left"
+                    android:background="@null"
+                    android:contentDescription="@string/left" />
+
+                <TextView
+                    android:id="@+id/box3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero"
+                    android:textAlignment="center"
+                    android:textSize="64sp"
+                    android:textColor="#9999ff"
+                    />
+
+                <ImageButton
+                    android:id="@+id/right3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_right"
+                    android:background="@null"
+                    android:contentDescription="@string/right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/left4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_left"
+                    android:background="@null"
+                    android:contentDescription="@string/left" />
+
+                <TextView
+                    android:id="@+id/box4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero"
+                    android:textAlignment="center"
+                    android:textSize="64sp"
+                    android:textColor="#ff9999"
+                    />
+
+                <ImageButton
+                    android:id="@+id/right4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/arrow_right"
+                    android:background="@null"
+                    android:contentDescription="@string/right" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
